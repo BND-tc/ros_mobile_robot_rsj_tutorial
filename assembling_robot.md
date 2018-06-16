@@ -109,14 +109,14 @@ $ make
 $ sudo make install
 $ sudo ldconfig
 ```  
-  ロボットパラメータファイルをダウンロードします。  
-  (2015年度・2016年度・2018年度のロボットの場合)
+  ロボットパラメータファイルをダウンロードします。([参考資料: ロボットの見分け方](robot_models))
+  - 2015年度・2016年度・2018年度のロボットの場合
 ```shell
 $ mkdir ~/params
 $ cd ~/params/
 $ wget https://at-wat.github.io/ROS-quick-start-up/files/rsj-seminar2016.param
 ```  
-  (2014年度のロボットの場合)
+  - 2014年度のロボットの場合
 ```shell  
 $ mkdir ~/params
 $ cd ~/params/
