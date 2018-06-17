@@ -3,6 +3,13 @@ title: 資料の修正
 date: 2018-06-15
 ---
 
+# Ubuntu LinuxとROSのインストール
+1.  「ModemManagerを削除」の項を最下段に追加
+
+```shell
+sudo apt-get purge modemmanager
+```
+
 # ロボットの組立てと動作テスト
 1. [参考資料: ロボットの見分け方](robot_models) のページを追加しました
 

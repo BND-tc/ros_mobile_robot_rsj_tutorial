@@ -166,5 +166,11 @@ $ sudo apt install ros-kinetic-map-server ros-kinetic-move-base
 $ sudo apt install ros-kinetic-amcl ros-kinetic-dwa-local-planner
 $ sudo apt install ros-kinetic-navigation
 ```
+## ModemManagerを削除 
+
+```shell
+sudo apt-get purge modemmanager
+```
+これは、ロボット・センサのUSBが接続されたときに、ModemManagerが起動していると1～2分間ほどモデムとしての通信試行処理が実行され、その間デバイスが利用できない問題があるためです。 そのため、削除、起動させない、または、USBデバイスをModemManagerのblacklistに追加する、といった処置が必要になります。
 
 以上、開発環境の構築が完了しました。
