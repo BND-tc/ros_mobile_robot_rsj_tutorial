@@ -2,7 +2,13 @@
 title: 資料の修正
 date: 2018-06-15
 ---
+# テキスト全体
+1. 文言を修正しました。
 
+    修正前: `navigation`パッケージ
+
+    修正後: `navigation`メタパッケージ
+    
 # Ubuntu LinuxとROSのインストール
 1.  「ModemManagerを削除」の項を最下段に追加
 
@@ -41,7 +47,7 @@ sudo apt-get purge modemmanager
     3次元点群そのものの処理については後に続く実習で説明します。
 
 # 点群処理とロボットナビゲーションの統合
-1. 新たな演習課題「ROS navigationパッケージの利用」を追加しました。
+1. 新たな演習課題「ROS navigation メタパッケージの利用」を追加しました。
 
 1. 新たな演習課題「URG-04LX-UG01(2DURG)」を追加しました。
 
