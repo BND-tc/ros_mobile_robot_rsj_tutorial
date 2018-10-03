@@ -15,12 +15,8 @@ RViz 上で紫で表示されている、センサに最も近いクラスタに
 
 ヒント：ロボットローカル座標系における紫のクラスタの位置はすでに計算されています。ロボットがその方向を向くように角速度を算出します。直進速度は一定の値でも良いですし、角速度が大きくなる場合はそれに応じて小さくするなどすれば小回りが効く制御になります。
 
-- [解答例](https://github.com/KMiyawaki/rsj_robot_answer/blob/answer_1/src/rsj_robot_test.cpp)
-
 # URG-04LX-UG01(2DURG)
 2DURG のデータを利用して、ロボットが人に追従するように制御してみましょう。基本的な方法は上記の課題と同じです。
-
-- [解答例](https://github.com/KMiyawaki/rsj_robot_answer/blob/answer_2/src/rsj_robot_test.cpp)
 
 # ROS navigation メタパッケージの利用
 RViz 上で紫で表示されている、センサに最も近いクラスタに対してロボットが近づくように制御してください。ただし、ROS navigation メタパッケージを利用します。これにより、経路上の障害物を回避しながら近づくようにします。
@@ -43,4 +39,3 @@ goal.pose.orientation = tf::createQuaternionMsgFromYaw(ロボットから見た�
 
 - `geometry_msgs::PoseStamped`のパブリッシュは目標発見時に1回行えば十分です。したがって、目標探索中か追跡中かといった状態を管理するのが簡単です。
 
-- [解答例](https://github.com/KMiyawaki/rsj_robot_answer/blob/answer_3/src/rsj_robot_test.cpp)
